@@ -245,8 +245,10 @@ Roomie fetches prompt files from `./prompts/*.md`. If those requests fail:
 - Check for runtime errors in the browser console.
 
 ## Contributing
-
 PRs and improvements are welcome.
+
+Thanks go to these wonderful people:
+- **[Jisoo](https://github.com/jisoo1129a)**: Designed ideas together, Searched for STT modules.
 
 ### Development workflow
 
@@ -268,8 +270,9 @@ Adjust `prompts/system_instruction.md`. The `{{GLOBAL_SUMMARY}}` and `{{REFLECTI
 
 ## Roadmap (ideas)
 
+- **Set environments and Run systems in Raspberry Pi to connect hardware** (screen, camera, wheels, etc.)
+- **Real music playback integration** (e.g., Spotify/YouTube links)
+- **More analytics** (weekly/monthly trends, category breakdown)
 - Server-side Gemini proxy (avoid exposing API key in the client)
 - Optional user auth + encrypted cloud sync for Heart Database
-- Real music playback integration (e.g., Spotify/YouTube links)
 - Better production asset handling for prompts (serve via `public/`)
-- More analytics (weekly/monthly trends, category breakdown)

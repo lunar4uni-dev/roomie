@@ -2,7 +2,8 @@
 import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
 import { EmotionType, ReflectionCategory, DiaryEntry, ChatMessage, GlobalMemory } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const MAX_RETRIES = 5; // Increased to give more room for recovery
 const INITIAL_BACKOFF = 2000; // Increased base backoff to 2s

@@ -236,7 +236,7 @@ const App: React.FC = () => {
               </button>
             </div>
 
-            <div className="bg-white/40 backdrop-blur-sm rounded-[2rem] p-6 shadow-sm border border-white/60 h-[450px] overflow-y-auto flex flex-col gap-4 scrollbar-hide">
+            <div className="bg-white/40 backdrop-blur-sm rounded-[2rem] p-6 shadow-sm border border-white/60 h-[450px] overflow-y-auto flex flex-col gap-4 scrollbar-hide pb-20">
               {chatHistory.length === 0 && (
                 <div className="flex flex-col items-center justify-center h-full text-slate-400 gap-4">
                   <div className="bg-white p-6 rounded-3xl shadow-sm text-center max-w-sm border-2 border-dashed border-orange-100">
@@ -254,7 +254,7 @@ const App: React.FC = () => {
                   </div>
                 </div>
               ))}
-              <div ref={chatEndRef} />
+              <div className="h-80" ref={chatEndRef} />
             </div>
 
             <div className="fixed bottom-0 left-0 right-0 p-4 bg-[#fdf6f0]/60 backdrop-blur-lg z-40 border-t border-white/50">
