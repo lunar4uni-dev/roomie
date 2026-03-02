@@ -1,0 +1,8 @@
+{
+  "name": "Roomie: Emotional Companion Robot",
+  "description": "A gentle, emotional diary robot that tracks your moods, categorizes your thoughts, manages screen time, and recommends calming music through friendly conversations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
